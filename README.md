@@ -1,8 +1,9 @@
 ## LeetCode 26: Remove Duplicates from Sorted Array
-**Problem Description**
+
+*Problem Description*:
 Given an integer array nums sorted in non-decreasing order, remove duplicates in-place such that each unique element appears only once. The relative order of elements must be maintained. Return the number of unique elements.
----
-**How It Works**
+
+**How It Works**:
 
 The algorithm uses two pointers:
 
@@ -19,9 +20,9 @@ Since the array is already sorted, duplicates appear consecutively. The algorith
 -Readability: Clear and intuitive two-pointer approach
 
 -Interview Friendly: Demonstrates understanding of in-place array manipulation
----
-Complexity Analysis
 
+Complexity Analysis
+---
 Time Complexity: O(n) - Single pass through the array
 
 Space Complexity: O(1) - In-place modification, no additional data structures used
